@@ -27,7 +27,7 @@ public class TextReader {
                 lines.add(scanner.nextLine());
             }
         } catch (FileNotFoundException e) {
-            logger.error("file path is invalid");
+            logger.error("Error while file reading");
             throw new CustomException("Error while reading file", e);
         }
         return lines;
