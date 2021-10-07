@@ -11,12 +11,12 @@ public class CustomArrayCalculationTest {
     private CustomArrayCalculation testCalculator = new CustomArrayCalculation();
 
     @Test
-    public void getSizeTest(){
+    public void findSumTest(){
         Assert.assertEquals(testCalculator.findSum(testArray), 2);
     }
 
     @Test
-    public void getMedianTest(){
+    public void findMedianTest(){
         Assert.assertEquals(testCalculator.findMedian(testArray), 0.5);
     }
 }

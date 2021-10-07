@@ -29,10 +29,9 @@ public class QuickSort {
                 arr[j] = swapTemp;
             }
         }
-        int swapTemp = arr[i+1];
+        int save = arr[i+1];
         arr[i+1] = arr[end];
-        arr[end] = swapTemp;
-
+        arr[end] = save;
         return i+1;
     }
 }

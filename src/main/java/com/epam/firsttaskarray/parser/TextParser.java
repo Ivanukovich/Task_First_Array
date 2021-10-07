@@ -16,7 +16,7 @@ public class TextParser {
     private static final Logger logger = LoggerFactory.getLogger(TextParser.class);
 
     private Validator validator = new Validator();
-    private static final String regex_delimiter = " ";
+    private static final String regex_delimiter = "[,]?\\s+";
     private final static String regex_integer = "[-]?\\d+";
 
     public CustomArray parseLines(List<String> lines) throws CustomException {

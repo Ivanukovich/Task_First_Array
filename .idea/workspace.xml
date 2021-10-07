@@ -13,43 +13,46 @@
     <session id="2111679867">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.14" value="2" />
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="47" />
+          <entry key="java" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="47" />
+          <entry key="JAVA" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="java" value="4984" />
+          <entry key="java" value="5418" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4984" />
+          <entry key="JAVA" value="5418" />
           <entry key="PLAIN_TEXT" value="15" />
           <entry key="XML" value="1" />
         </counts>
@@ -59,10 +62,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/service/CustomArrayEditor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/customReader/TextReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="268">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/customReader/TextReaderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/parser/TextParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+            <state relative-caret-position="306">
+              <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,50 +98,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/service/CustomArraySearchTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/parser/TextParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="323">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
+                <element signature="e#141#149#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/file/TextReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="62" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="83" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/service/CustomArraySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/service/CustomArrayCalculation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -134,12 +113,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/validation/Validator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="51">
+              <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
               <folding>
                 <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/customSort/BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -147,10 +135,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/service/CustomArrayCalculationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,8 +151,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/service/CustomArrayEditorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="187">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,10 +161,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/service/CustomArraySearchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#578#579#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/customSort/CustomArraySortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="510">
+              <caret line="30" column="61" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,33 +198,40 @@
       <find>getLogger</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/CustomArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/customSort/quickSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/validation/Validator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/exception/CustomException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/factory/CustomArrayCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/file/DataReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/parser/CustomParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/parser/TextParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/file/TextReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/service/CustomArrayInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/service/CustomArrayEditor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/customSort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/entity/CustomArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/entity/CustomArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/service/CustomArrayCalculation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/service/CustomArrayCalculationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/CustomArrayEditorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/CustomArraySortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/customSort/InsertSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/customSort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/CustomArraySearchTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/service/CustomArraySearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/customSort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/customReader/TextReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/customReader/TextReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/customSort/CustomArraySortTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/service/CustomArrayCalculationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/parser/TextParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/validation/Validator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/parser/TextParserTest.java" />
       </list>
     </option>
   </component>
@@ -241,13 +252,13 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,6 +299,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="firsttaskarray" type="462c0819:PsiDirectoryNode" />
+              <item name="customReader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First_Task_Array" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First_Task_Array" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="firsttaskarray" type="462c0819:PsiDirectoryNode" />
               <item name="customSort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -307,15 +327,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="firsttaskarray" type="462c0819:PsiDirectoryNode" />
               <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="First_Task_Array" type="b2602c69:ProjectViewProjectNode" />
-              <item name="First_Task_Array" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="firsttaskarray" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="First_Task_Array" type="b2602c69:ProjectViewProjectNode" />
@@ -363,6 +374,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="customReader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First_Task_Array" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First_Task_Array" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="customSort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -371,7 +390,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="First_Task_Array" type="b2602c69:ProjectViewProjectNode" />
@@ -385,16 +404,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1633376103091" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1633636107740" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -408,25 +428,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CustomArraySearchTest">
-    <configuration name="CustomArrayCalculationTest.getMedianTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="First_Task_Array" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="customSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.CustomArrayCalculationTest" />
-      <option name="METHOD_NAME" value="getMedianTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TextParserTest">
     <configuration name="CustomArraySearchTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="First_Task_Array" />
       <extension name="coverage">
@@ -437,6 +439,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="service" />
       <option name="MAIN_CLASS_NAME" value="service.CustomArraySearchTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomArraySortTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="First_Task_Array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="customSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="customSort" />
+      <option name="MAIN_CLASS_NAME" value="customSort.CustomArraySortTest" />
       <properties />
       <listeners />
       <method v="2">
@@ -461,35 +479,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomArraySortTest.insertSortTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TextParserTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="First_Task_Array" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="customSort.*" />
+          <option name="PATTERN" value="parser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="customSort.CustomArraySortTest" />
-      <option name="METHOD_NAME" value="insertSortTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="parser" />
+      <option name="MAIN_CLASS_NAME" value="parser.TextParserTest" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomArraySortTest.quickSortTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TextParserTest.parseLinesTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="First_Task_Array" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="customSort.*" />
+          <option name="PATTERN" value="parser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="customSort.CustomArraySortTest" />
-      <option name="METHOD_NAME" value="quickSortTest" />
+      <option name="PACKAGE_NAME" value="parser" />
+      <option name="MAIN_CLASS_NAME" value="parser.TextParserTest" />
+      <option name="METHOD_NAME" value="parseLinesTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -498,19 +514,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.CustomArrayCalculationTest.getMedianTest" />
-      <item itemvalue="TestNG.CustomArraySortTest.quickSortTest" />
       <item itemvalue="TestNG.CustomArraySortTest.bubbleSortTest" />
-      <item itemvalue="TestNG.CustomArraySortTest.insertSortTest" />
       <item itemvalue="TestNG.CustomArraySearchTest" />
+      <item itemvalue="TestNG.CustomArraySortTest" />
+      <item itemvalue="TestNG.TextParserTest.parseLinesTest" />
+      <item itemvalue="TestNG.TextParserTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TextParserTest" />
+        <item itemvalue="TestNG.TextParserTest.parseLinesTest" />
+        <item itemvalue="TestNG.CustomArraySortTest" />
         <item itemvalue="TestNG.CustomArraySearchTest" />
         <item itemvalue="TestNG.CustomArraySortTest.bubbleSortTest" />
-        <item itemvalue="TestNG.CustomArraySortTest.insertSortTest" />
-        <item itemvalue="TestNG.CustomArraySortTest.quickSortTest" />
-        <item itemvalue="TestNG.CustomArrayCalculationTest.getMedianTest" />
       </list>
     </recent_temporary>
   </component>
@@ -528,41 +544,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomArrayCalculationTest_getMedianTest - 2021.10.04 at 22h 20m 16s.xml">
-      <configuration name="CustomArrayCalculationTest.getMedianTest" configurationId="TestNG" />
+    <history-entry file="CustomArraySortTest - 2021.10.05 at 10h 06m 20s.xml">
+      <configuration name="CustomArraySortTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CustomArraySortTest_quickSortTest - 2021.10.04 at 22h 24m 57s.xml">
-      <configuration name="CustomArraySortTest.quickSortTest" configurationId="TestNG" />
+    <history-entry file="TextParserTest_parseLinesTest - 2021.10.07 at 22h 39m 04s.xml">
+      <configuration name="TextParserTest.parseLinesTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CustomArraySortTest_bubbleSortTest - 2021.10.04 at 22h 26m 34s.xml">
-      <configuration name="CustomArraySortTest.bubbleSortTest" configurationId="TestNG" />
+    <history-entry file="TextParserTest_parseLinesTest - 2021.10.07 at 22h 39m 28s.xml">
+      <configuration name="TextParserTest.parseLinesTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CustomArraySortTest_insertSortTest - 2021.10.04 at 22h 26m 43s.xml">
-      <configuration name="CustomArraySortTest.insertSortTest" configurationId="TestNG" />
+    <history-entry file="TextParserTest_parseLinesTest - 2021.10.07 at 22h 39m 40s.xml">
+      <configuration name="TextParserTest.parseLinesTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CustomArraySortTest_insertSortTest - 2021.10.04 at 22h 27m 09s.xml">
-      <configuration name="CustomArraySortTest.insertSortTest" configurationId="TestNG" />
+    <history-entry file="TextParserTest_parseLinesTest - 2021.10.07 at 22h 42m 13s.xml">
+      <configuration name="TextParserTest.parseLinesTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CustomArraySortTest_bubbleSortTest - 2021.10.04 at 22h 27m 12s.xml">
-      <configuration name="CustomArraySortTest.bubbleSortTest" configurationId="TestNG" />
+    <history-entry file="TextParserTest - 2021.10.07 at 22h 42m 25s.xml">
+      <configuration name="TextParserTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CustomArraySearchTest - 2021.10.04 at 22h 32m 00s.xml">
-      <configuration name="CustomArraySearchTest" configurationId="TestNG" />
+    <history-entry file="TextParserTest - 2021.10.07 at 22h 44m 13s.xml">
+      <configuration name="TextParserTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CustomArraySearchTest - 2021.10.04 at 22h 33m 26s.xml">
-      <configuration name="CustomArraySearchTest" configurationId="TestNG" />
+    <history-entry file="TextParserTest - 2021.10.07 at 22h 46m 43s.xml">
+      <configuration name="TextParserTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CustomArraySearchTest - 2021.10.04 at 22h 34m 16s.xml">
-      <configuration name="CustomArraySearchTest" configurationId="TestNG" />
+    <history-entry file="TextParserTest - 2021.10.07 at 22h 47m 44s.xml">
+      <configuration name="TextParserTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CustomArraySearchTest - 2021.10.04 at 22h 34m 52s.xml">
-      <configuration name="CustomArraySearchTest" configurationId="TestNG" />
+    <history-entry file="TextParserTest - 2021.10.07 at 22h 48m 14s.xml">
+      <configuration name="TextParserTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29060403" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21946308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -570,18 +586,18 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4986577" visible="true" weight="0.2592068" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.38101983" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.55807364" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.24966443" />
+      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.09597316" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -621,6 +637,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -649,27 +670,32 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/factory/CustomArrayCreator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/service/CustomArrayEditor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/entity/CustomArrayTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/service/CustomArrayCalculation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/entity/CustomArrayTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/exception/CustomException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -682,8 +708,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/customSort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="461">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/service/CustomArraySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/entity/CustomArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/CustomArrayCalculationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/CustomArraySearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#578#579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/customReader/TextReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/CustomArrayEditorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -694,46 +783,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/entity/CustomArray.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/customReader/TextReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/exception/CustomException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/file/TextReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="62" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="83" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/service/CustomArrayCalculation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/customSort/CustomArraySortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/service/CustomArrayEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="510">
+          <caret line="30" column="61" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -742,28 +805,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/parser/TextParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/CustomArrayEditorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/CustomArrayCalculationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -772,45 +815,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/validation/Validator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
           <folding>
             <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/customSort/CustomArraySortTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/parser/TextParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/firsttaskarray/service/CustomArraySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/CustomArraySearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#141#149#0" expanded="true" />
           </folding>
         </state>
       </provider>

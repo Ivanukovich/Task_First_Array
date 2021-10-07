@@ -2,7 +2,7 @@ package com.epam.firsttaskarray.service;
 
 import com.epam.firsttaskarray.entity.CustomArray;
 import com.epam.firsttaskarray.exception.CustomException;
-import com.epam.firsttaskarray.file.TextReader;
+import com.epam.firsttaskarray.customReader.TextReader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

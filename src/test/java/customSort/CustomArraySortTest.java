@@ -10,31 +10,31 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class CustomArraySortTest {
-    private int []testData = {1, 3, 2, -4};
-    private int []sortedData = {-4, 1, 2, 3};
-    private CustomArray testArray = new CustomArray(testData);
+    private int []unsortedArray = {1, 3, 2, -4};
+    private int []sortedArray = {-4, 1, 2, 3};
+    private CustomArray unsortedCustomArray = new CustomArray(unsortedArray);
     private BubbleSort bubbleSorter = new BubbleSort();
     private QuickSort quickSorter = new QuickSort();
     private InsertSort insertSorter = new InsertSort();
 
     @Test
     public void quickSortTest() throws CustomException {
-        CustomArray arrayForSort = new CustomArray(testArray.getArray());
+        CustomArray arrayForSort = new CustomArray(unsortedCustomArray.getArray());
         quickSorter.quickSort(arrayForSort);
-        Assert.assertEquals(arrayForSort.getArray(), sortedData);
+        Assert.assertEquals(arrayForSort.getArray(), sortedArray);
     }
 
     @Test
     public void bubbleSortTest() throws CustomException {
-        CustomArray arrayForSort = new CustomArray(testArray.getArray());
+        CustomArray arrayForSort = new CustomArray(unsortedCustomArray.getArray());
         bubbleSorter.bubbleSort(arrayForSort);
-        Assert.assertEquals(arrayForSort.getArray(), sortedData);
+        Assert.assertEquals(arrayForSort.getArray(), sortedArray);
     }
 
     @Test
     public void insertSortTest() throws CustomException {
-        CustomArray arrayForSort = new CustomArray(testArray.getArray());
+        CustomArray arrayForSort = new CustomArray(unsortedCustomArray.getArray());
         insertSorter.insertSort(arrayForSort);
-        Assert.assertEquals(arrayForSort.getArray(), sortedData);
+        Assert.assertEquals(arrayForSort.getArray(), sortedArray);
     }
 }
