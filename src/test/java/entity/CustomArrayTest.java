@@ -12,10 +12,4 @@ public class CustomArrayTest {
     public void getSizeTest(){
         Assert.assertEquals(testArray.getSize(), 4);
     }
-
-    @Test
-    public void findSumTest(){
-        Assert.assertEquals(testArray.getArray(), testData);
-    }
-
 }
