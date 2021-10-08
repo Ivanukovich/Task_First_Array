@@ -27,8 +27,8 @@ public class TextReader {
                 lines.add(scanner.nextLine());
             }
         } catch (FileNotFoundException e) {
-            logger.error("customReader path is invalid");
-            throw new CustomException("Error while reading customReader", e);
+            logger.error("Error while reading file");
+            throw new CustomException("Error while readingfile", e);
         }
         return lines;
     }
@@ -39,20 +39,20 @@ public class TextReader {
         try (Stream<String> linesStream = Files.lines(Paths.get(filePath))) {
             lines = linesStream.collect(Collectors.toList());
         } catch (IOException e) {
-            logger.error("Error while customReader reading");
-            throw new CustomException("Error while customReader reading", e);
+            logger.error("Error while reading file");
+            throw new CustomException("Error while reading file", e);
         }
         return lines;
     }
     private void validateFilePath(String filePath) throws CustomException {
         if (filePath == null) {
-            logger.error("customReader path is null");
-            throw new CustomException("customReader path is null");
+            logger.error("file path is null");
+            throw new CustomException("file path is null");
         }
         File file = new File(filePath);
         if (!file.exists() || file.isDirectory()) {
-            logger.error("customReader doesn't exist");
-            throw new CustomException("customReader doesn't exist");
+            logger.error("file path is invalid");
+            throw new CustomException("file path is invalid");
         }
     }
 }
