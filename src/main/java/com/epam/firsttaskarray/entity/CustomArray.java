@@ -35,12 +35,10 @@ public class CustomArray {
     @Override
     public String toString(){
         StringBuilder output = new StringBuilder();
-        for (int i = 0; i < array.length; ++i){
+        for (int i = 0; i < array.length - 1; ++i){
             output.append(array[i]);
-            if (i < array.length + 1){
-                output.append(", ");
-            }
         }
+        output.append(array[array.length - 1]);
         return String.valueOf(output);
     }
 

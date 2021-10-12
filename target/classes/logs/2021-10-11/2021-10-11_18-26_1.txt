@@ -1,0 +1,2 @@
+2021-10-11 18:26:46 [main] [parseLines] [43]
+            INFO  com.epam.firsttaskarray.parser.TextParser - Result of parsing: 1-237-89

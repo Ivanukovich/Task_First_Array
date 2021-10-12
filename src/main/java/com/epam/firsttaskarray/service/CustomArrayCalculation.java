@@ -2,22 +2,19 @@ package com.epam.firsttaskarray.service;
 
 import com.epam.firsttaskarray.entity.CustomArray;
 
+import java.util.stream.IntStream;
+
 public class CustomArrayCalculation {
     public int findSum(CustomArray array){
-        int []arrayData = array.getArray();
-        int sum = 0;
-        for (int i = 0; i < arrayData.length; ++i){
-            sum += arrayData[i];
-        }
-        return sum;
+        return IntStream
+                .of(array.getArray())
+                .sum();
     }
 
     public double findMedian(CustomArray array){
-        int []arrayData = array.getArray();
-        double sum = 0;
-        for (int i = 0; i < arrayData.length; ++i){
-            sum += arrayData[i];
-        }
+        double sum = IntStream
+                .of(array.getArray())
+                .sum();
         return sum/array.getSize();
     }
 }

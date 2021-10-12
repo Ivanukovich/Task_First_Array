@@ -5,17 +5,16 @@ import com.epam.firsttaskarray.customSort.InsertSort;
 import com.epam.firsttaskarray.customSort.QuickSort;
 import com.epam.firsttaskarray.entity.CustomArray;
 import com.epam.firsttaskarray.exception.CustomException;
-import com.epam.firsttaskarray.service.CustomArrayCalculation;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class CustomArraySortTest {
-    private int []unsortedArray = {1, 3, 2, -4};
-    private int []sortedArray = {-4, 1, 2, 3};
-    private CustomArray unsortedCustomArray = new CustomArray(unsortedArray);
-    private BubbleSort bubbleSorter = new BubbleSort();
-    private QuickSort quickSorter = new QuickSort();
-    private InsertSort insertSorter = new InsertSort();
+    private static final int []unsortedArray = {1, 3, 2, -4};
+    private static final int []sortedArray = {-4, 1, 2, 3};
+    private static final CustomArray unsortedCustomArray = new CustomArray(unsortedArray);
+    private static final BubbleSort bubbleSorter = new BubbleSort();
+    private static final QuickSort quickSorter = new QuickSort();
+    private static final InsertSort insertSorter = new InsertSort();
 
     @Test
     public void quickSortTest() throws CustomException {

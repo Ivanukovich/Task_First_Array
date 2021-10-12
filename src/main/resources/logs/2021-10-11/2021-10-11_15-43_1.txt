@@ -1,0 +1,12 @@
+2021-10-11 15:43:13 [main] [readTextStream] [47]
+            INFO  com.epam.firsttaskarray.customReader.TextReader - Finish reading file "src\test\resources\testText.txt"
+2021-10-11 15:43:13 [main] [readText] [34]
+            INFO  com.epam.firsttaskarray.customReader.TextReader - Finish reading file "src\test\resources\testText.txt"
+2021-10-11 15:43:30 [main] [readTextStream] [47]
+            INFO  com.epam.firsttaskarray.customReader.TextReader - Finish reading file "src\test\resources\testText.txt"
+2021-10-11 15:43:30 [main] [readText] [34]
+            INFO  com.epam.firsttaskarray.customReader.TextReader - Finish reading file "src\test\resources\testText.txt"
+2021-10-11 15:43:43 [main] [readTextStream] [47]
+            INFO  com.epam.firsttaskarray.customReader.TextReader - Finish reading file "src\test\resources\testText.txt"
+2021-10-11 15:43:43 [main] [readText] [34]
+            INFO  com.epam.firsttaskarray.customReader.TextReader - Finish reading file "src\test\resources\testText.txt"

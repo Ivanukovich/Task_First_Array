@@ -1,0 +1,2 @@
+2021-10-11 20:52:19 [main] [readText] [28]
+            ERROR com.epam.firsttaskarray.customReader.TextReader - File path "sdsdfsdsdsc" is invalid

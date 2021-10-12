@@ -2,22 +2,19 @@ package com.epam.firsttaskarray.service;
 
 import com.epam.firsttaskarray.entity.CustomArray;
 import com.epam.firsttaskarray.exception.CustomException;
-import com.epam.firsttaskarray.customReader.TextReader;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class CustomArrayEditor {
-    private static final Logger logger = LoggerFactory.getLogger(TextReader.class);
+    private static final Logger logger = LogManager.getLogger();
 
     public void setElementAt(CustomArray customArray, int index, int newElement) throws CustomException {
-        if (index < customArray.getSize() && index >= 0){
-            int []arrayData = customArray.getArray();
+        if (index >= 0 && index < customArray.getSize()) {
+            int[] arrayData = customArray.getArray();
             arrayData[index] = newElement;
             customArray.setArray(arrayData);
-        }
-        else {
-            logger.error("index is out of boundaries");
-            throw new CustomException("index is out of boundaries");
+        } else {
+            logger.error("index is out of range");
         }
     }
 }

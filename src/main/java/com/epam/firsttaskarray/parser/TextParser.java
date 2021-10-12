@@ -3,8 +3,8 @@ package com.epam.firsttaskarray.parser;
 import com.epam.firsttaskarray.entity.CustomArray;
 import com.epam.firsttaskarray.exception.CustomException;
 import com.epam.firsttaskarray.validation.Validator;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,18 +13,17 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class TextParser {
-    private static final Logger logger = LoggerFactory.getLogger(TextParser.class);
+    private static final Logger logger = LogManager.getLogger();
 
-    private Validator validator = new Validator();
+    private static final Validator validator = new Validator();
     private static final String regex_delimiter = "[,]?\\s+";
-    private final static String regex_integer = "[-]?\\d+";
+    private static final String regex_integer = "[-]?\\d+";
 
     public CustomArray parseLines(List<String> lines) throws CustomException {
+        List<Integer> numbers = new ArrayList<>();
         if (lines == null) {
             logger.error("List is empty");
-            throw new CustomException("List is empty");
         }
-        List<Integer> numbers = new ArrayList<>();
         for (String line : lines) {
             if (validator.validateLine(line)) {
                 Pattern pattern = Pattern.compile(regex_integer);
@@ -35,8 +34,7 @@ public class TextParser {
             }
         }
         if (numbers.size() == 0){
-            logger.error("No numbers found");
-            throw new CustomException("No numbers found");
+            logger.info("No numbers found");
         }
         CustomArray result = new CustomArray();
         result.setArray(numbers);
@@ -56,7 +54,6 @@ public class TextParser {
                 .toArray();
         if (numbers.length == 0){
             logger.error("No numbers found");
-            throw new CustomException("No numbers found");
         }
         CustomArray result = new CustomArray();
         result.setArray(numbers);

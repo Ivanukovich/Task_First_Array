@@ -6,17 +6,17 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class CustomArrayCalculationTest {
-    private int []testData = {1, 3, 2, -4};
-    private CustomArray testArray = new CustomArray(testData);
-    private CustomArrayCalculation testCalculator = new CustomArrayCalculation();
+    private static final int []testArray = {1, 3, 2, -4};
+    private static final CustomArray testCustomArray = new CustomArray(testArray);
+    private static final CustomArrayCalculation testCalculator = new CustomArrayCalculation();
 
     @Test
     public void findSumTest(){
-        Assert.assertEquals(testCalculator.findSum(testArray), 2);
+        Assert.assertEquals(testCalculator.findSum(testCustomArray), 2);
     }
 
     @Test
     public void findMedianTest(){
-        Assert.assertEquals(testCalculator.findMedian(testArray), 0.5);
+        Assert.assertEquals(testCalculator.findMedian(testCustomArray), 0.5);
     }
 }
