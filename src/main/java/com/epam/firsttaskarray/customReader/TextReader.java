@@ -33,9 +33,15 @@ public class TextReader {
             while (scanner.hasNextLine()) {
                 lines.add(scanner.nextLine());
             }
+<<<<<<< HEAD
         } catch (IOException e) {
             logger.error("Error while reading the file " + filePath);
             throw new CustomException("Error while reading the file", e);
+=======
+        } catch (FileNotFoundException e) {
+            logger.error("Error while reading file");
+            throw new CustomException("Error while readingfile", e);
+>>>>>>> 48c2044490eb0f8669a1700c10340b882e0e915f
         }
         logger.info("Finish reading file \"" + filePath + "\"");
         return lines;
@@ -55,10 +61,29 @@ public class TextReader {
         try (Stream<String> linesStream = Files.lines(Paths.get(filePath))) {
             lines = linesStream.collect(Collectors.toList());
         } catch (IOException e) {
+<<<<<<< HEAD
             logger.error("Error while reading the file " + filePath);
             throw new CustomException("Error while reading the file", e);
+=======
+            logger.error("Error while reading file");
+            throw new CustomException("Error while reading file", e);
+>>>>>>> 48c2044490eb0f8669a1700c10340b882e0e915f
         }
         logger.info("Finish reading file \"" + filePath + "\"");
         return lines;
     }
+<<<<<<< HEAD
+=======
+    private void validateFilePath(String filePath) throws CustomException {
+        if (filePath == null) {
+            logger.error("file path is null");
+            throw new CustomException("file path is null");
+        }
+        File file = new File(filePath);
+        if (!file.exists() || file.isDirectory()) {
+            logger.error("file path is invalid");
+            throw new CustomException("file path is invalid");
+        }
+    }
+>>>>>>> 48c2044490eb0f8669a1700c10340b882e0e915f
 }
